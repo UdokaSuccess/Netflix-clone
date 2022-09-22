@@ -1,0 +1,102 @@
+body{
+	font-family: 'Graphique', sans-serif;
+	margin: 0px;
+}
+
+header{
+	height: 100vh;
+	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(netflix-backgroundd.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	margin:  0rem 1.5rem;
+
+}
+nav {
+	flex: 1;
+	text-align: right;
+	margin-top: 0px;
+	margin-right: 2.8rem
+}
+
+.sign-up{
+	background-color: #E50914 ;
+	color: #ffffff;
+	float: right;
+	margin-right: 0px;
+	padding: 0.4rem 1rem;
+	border-radius: 8%;
+	font-size: 1.125rem;
+	text-decoration: none;
+}
+.title{
+	position: absolute;
+	text-align: center;
+	top: 31%;
+	left: 24%;
+	margin: 0 auto;
+
+	}
+
+h1{/*
+	margin: 5rem 5rem 0px 5rem;*/
+	color: #fff;
+	font-size: 3.1rem;
+	margin-bottom: 1.8rem
+}
+.p1{
+   color: #fff;
+   font-size: 1.7rem;
+   margin: 1.3rem 0px;
+   line-height: 0.5rem;
+}
+p{
+	color: #ffffff;
+	font-size: 1.1rem;
+	margin-bottom: 0px;
+	margin-top: 2.5rem;
+}
+h4{
+	color: #E50914;
+	font-family: 'Bebas Neue';
+	font-size: 1.5rem
+}
+input{
+	margin: 1rem 0;
+	padding: 1.2rem 17rem;
+	padding-left: 0
+}
+input::placeholder{
+	text-align: left;
+	font-size: 1rem
+}
+span{
+	display: inline-flex;
+	align-items: center;
+	background-color:  #E50914;
+	color: #ffffff;
+	text-align: center;
+	font-size: 1.6rem;
+	line-height: 0.5rem;
+	height: 3.2rem;
+	padding-bottom: 0.28rem;
+	/*padding-top: 0.5rem;*/
+	padding-left: 1.5rem;
+	padding-right: 1.5rem
+
+}
+.fa-solid{
+	margin-right: 1.1rem
+}
+
+/*-----------------------*/
+
+
+
+
+
+
